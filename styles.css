@@ -19,7 +19,6 @@ canvas {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
     z-index: 0;
 }
 
@@ -90,7 +89,7 @@ a{
 
 #selector button {
     background-color: transparent;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
@@ -102,8 +101,8 @@ a{
 }
 #selector{
   border: 3px solid rgb(0, 0, 0);
-  height: 380px;
-  width: 350px;
+  height: 90%;
+  width: 25%;
   justify-content:center;
   position: relative;
   left: 480px;
@@ -123,11 +122,11 @@ a{
     border-radius: 5px;
     height: 730px;
     color: white;
+    border: 2px solid black;
   }
 #b_tech_container{
     background-color: #F0F0F0;
     border-radius: 9px;
-    height: 240px;
     width: 78%;
     position: absolute;
     left: 145px;
@@ -138,7 +137,6 @@ a{
 #MBA_container{
   background-color: #F0F0F0;
   border-radius: 9px;
-  height: 120px;
   width: 78%;
   position: absolute;
   left: 145px;
@@ -148,7 +146,6 @@ a{
 #MCA_container{
   background-color: #F0F0F0;
   border-radius: 9px;
-  height: 120px;
   width: 78%;
   position: absolute;
   left: 145px;
@@ -158,7 +155,6 @@ a{
 #M_TECH_container{
   background-color: #F0F0F0;
   border-radius: 9px;
-  height: 120px;
   width: 78%;
   position: absolute;
   left: 145px;
@@ -199,11 +195,12 @@ a{
     outline: none;
 }
 footer {
+  margin-top: 20px;
   background: #222;
   color: white;
   padding: 40px 0;
   text-align: center;
-  border: 2px solid white;
+  border: 2px solid rgb(255, 255, 255);
 }
 
 /* Footer Container */
